@@ -1,0 +1,841 @@
+[
+    {
+        "name": "Aftermath",
+        "collection": "Core",
+        "fid": 1
+    },
+    {
+        "name": "A Simple Task",
+        "collection": "Core",
+        "fid": 2,
+        "type": "Gray"
+    },
+    {
+        "name": "A New Threat",
+        "collection": "Core",
+        "fid": 3
+    },
+    {
+        "name": "Breaking Point",
+        "collection": "Core",
+        "fid": 4,
+        "type": "Agenda"
+    },
+    {
+        "name": "Brushfire",
+        "collection": "Core",
+        "fid": 5,
+        "type": "Red",
+        "hero": "Fenn Signis"
+    },
+    {
+        "name": "Captured",
+        "collection": "Core",
+        "fid": 6
+    },
+    {
+        "name": "Chain of Command",
+        "collection": "Core",
+        "fid": 7
+    },
+    {
+        "name": "Dark Obsession",
+        "collection": "Core",
+        "fid": 8,
+        "type": "Agenda"
+    },
+    {
+        "name": "Desperate Hour",
+        "collection": "Core",
+        "fid": 9
+    },
+    {
+        "name": "Drawn In",
+        "collection": "Core",
+        "fid": 10
+    },
+    {
+        "name": "Fly Solo",
+        "collection": "Core",
+        "fid": 11
+    },
+    {
+        "name": "Friends of Old",
+        "collection": "Core",
+        "fid": 12,
+        "type": "Red",
+        "hero": "Gideon Argus"
+    },
+    {
+        "name": "Generous Donations",
+        "collection": "Core",
+        "fid": 13,
+        "type": "Gray"
+    },
+    {
+        "name": "Hight Moon",
+        "collection": "Core",
+        "fid": 14,
+        "type": "Red",
+        "hero": "Jyn Odan"
+    },
+    {
+        "name": "Homecoming",
+        "collection": "Core",
+        "fid": 15,
+        "type": "Green"
+    },
+    {
+        "name": "Imperial Hospitality",
+        "collection": "Core",
+        "fid": 16
+    },
+    {
+        "name": "Impounded",
+        "collection": "Core",
+        "fid": 17,
+        "type": "Agenda"
+    },
+    {
+        "name": "Incoming",
+        "collection": "Core",
+        "fid": 18
+    },
+    {
+        "name": "Indebted",
+        "collection": "Core",
+        "fid": 19,
+        "type": "Red",
+        "hero": "Gaarkhan"
+    },
+    {
+        "name": "Last Stand",
+        "collection": "Core",
+        "fid": 20
+    },
+    {
+        "name": "Loose Cannon",
+        "collection": "Core",
+        "fid": 21,
+        "type": "Red",
+        "hero": "Mak Eshka'rey"
+    },
+    {
+        "name": "Luxury Cruise",
+        "collection": "Core",
+        "fid": 22,
+        "type": "Gray"
+    },
+    {
+        "name": "Mean of Production",
+        "collection": "Core",
+        "fid": 23,
+        "type": "Agenda"
+    },
+    {
+        "name": "Sorry About the Mess",
+        "collection": "Core",
+        "fid": 24,
+        "type": "Green"
+    },
+    {
+        "name": "Sympathy for the Rebellion",
+        "collection": "Core",
+        "fid": 25,
+        "type": "Gray"
+    },
+    {
+        "name": "Target of Opportunity",
+        "collection": "Core",
+        "fid": 26,
+        "type": "Green"
+    },
+    {
+        "name": "Temptation",
+        "collection": "Core",
+        "fid": 27,
+        "type": "Red",
+        "hero": "Diala Passil"
+    },
+    {
+        "name": "The Source",
+        "collection": "Core",
+        "fid": 28
+    },
+    {
+        "name": "The Spice Job",
+        "collection": "Core",
+        "fid": 29,
+        "type": "Green"
+    },
+    {
+        "name": "Under Siege",
+        "collection": "Core",
+        "fid": 30
+    },
+    {
+        "name": "Viper's Den",
+        "collection": "Core",
+        "fid": 31,
+        "type": "Gray"
+    },
+    {
+        "name": "Wanted",
+        "collection": "Core",
+        "fid": 32,
+        "type": "Agenda"
+    },
+    {
+        "name": "Canyon Run",
+        "collection": "Twin Shadows",
+        "fid": 1,
+        "type": "Gray"
+    },
+    {
+        "name": "Fire in the Sky",
+        "collection": "Twin Shadows",
+        "fid": 2,
+        "type": "Agenda"
+    },
+    {
+        "name": "Hunted Down",
+        "collection": "Twin Shadows",
+        "fid": 3,
+        "type": "Green"
+    },
+    {
+        "name": "Infiltrated",
+        "collection": "Twin Shadows",
+        "fid": 4,
+        "type": "Agenda"
+    },
+    {
+        "name": "Past Life Enemies",
+        "collection": "Twin Shadows",
+        "fid": 5,
+        "type": "Red",
+        "hero": "Biv Bodhrik"
+    },
+    {
+        "name": "Shady Dealings",
+        "collection": "Twin Shadows",
+        "fid": 6,
+        "type": "Red",
+        "hero": "Saska Teft"
+    },
+    {
+        "name": "Constant Vigilance",
+        "collection": "Hoth",
+        "fid": 1,
+        "type": "Red",
+        "hero": "Loku Kanoloa"
+    },
+    {
+        "name": "Disaster",
+        "collection": "Hoth",
+        "fid": 2
+    },
+    {
+        "name": "Escape from Cloud City",
+        "collection": "Hoth",
+        "fid": 3,
+        "type": "Gray"
+    },
+    {
+        "name": "Home Front",
+        "collection": "Hoth",
+        "fid": 4
+    },
+    {
+        "name": "Know Your Enemy",
+        "collection": "Hoth",
+        "fid": 5,
+        "type": "Red",
+        "hero": "Verena Talos"
+    },
+    {
+        "name": "One Step Behind",
+        "collection": "Hoth",
+        "fid": 6
+    },
+    {
+        "name": "Our Last Hope",
+        "collection": "Hoth",
+        "fid": 7
+    },
+    {
+        "name": "Preventive Measures",
+        "collection": "Hoth",
+        "fid": 8,
+        "type": "Red",
+        "hero": "MHD-19"
+    },
+    {
+        "name": "Rescue Ops",
+        "collection": "Hoth",
+        "fid": 9
+    },
+    {
+        "name": "Return to Echo Base",
+        "collection": "Hoth",
+        "fid": 10
+    },
+    {
+        "name": "Scouring of the Homestead",
+        "collection": "Hoth",
+        "fid": 11
+    },
+    {
+        "name": "Surivival of the Fittest",
+        "collection": "Hoth",
+        "fid": 12
+    },
+    {
+        "name": "The Battle of Hoth",
+        "collection": "Hoth",
+        "fid": 13
+    },
+    {
+        "name": "The Hard Way",
+        "collection": "Hoth",
+        "fid": 14
+    },
+    {
+        "name": "The Last Line",
+        "collection": "Hoth",
+        "fid": 15
+    },
+    {
+        "name": "White Noise",
+        "collection": "Hoth",
+        "fid": 16
+    },
+    {
+        "name": "Cloud City's Secret",
+        "collection": "Bespin Gambit",
+        "fid": 1
+    },
+    {
+        "name": "Freedom Fighters",
+        "collection": "Bespin Gambit",
+        "fid": 2,
+        "type": "Gray"
+    },
+    {
+        "name": "Hostile Takeover",
+        "collection": "Bespin Gambit",
+        "fid": 3,
+        "type": "Gray"
+    },
+    {
+        "name": "Panic In The Streets",
+        "collection": "Bespin Gambit",
+        "fid": 4,
+        "type": "Red",
+        "hero": "Murne Rin"
+    },
+    {
+        "name": "Reclamation",
+        "collection": "Bespin Gambit",
+        "fid": 5,
+        "type": "Red",
+        "hero": "Green"
+    },
+    {
+        "name": "Reclassified",
+        "collection": "Bespin Gambit",
+        "fid": 6,
+        "type": "Red",
+        "hero": "Davith Elso"
+    },
+    {
+        "name": "A Hero's Welcome",
+        "collection": "Jabba",
+        "fid": 1,
+        "type": "Red",
+        "hero": "Vinto Hreeda"
+    },
+    {
+        "name": "Almost Home",
+        "collection": "Jabba",
+        "fid": 2
+    },
+    {
+        "name": "Born From Death",
+        "collection": "Jabba",
+        "fid": 3,
+        "type": "Red",
+        "hero": "Shyla Varad"
+    },
+    {
+        "name": "Dangerous Allies",
+        "collection": "Jabba",
+        "fid": 4
+    },
+    {
+        "name": "Execute the Plan",
+        "collection": "Jabba",
+        "fid": 5
+    },
+    {
+        "name": "Extortion",
+        "collection": "Jabba",
+        "fid": 6,
+        "type": "Red",
+        "hero": "Onar Koma"
+    },
+    {
+        "name": "From All Sides",
+        "collection": "Jabba",
+        "fid": 7
+    },
+    {
+        "name": "Hostile Negotiations",
+        "collection": "Jabba",
+        "fid": 8
+    },
+    {
+        "name": "Moment of Fate",
+        "collection": "Jabba",
+        "fid": 9
+    },
+    {
+        "name": "Mutiny",
+        "collection": "Jabba",
+        "fid": 10
+    },
+    {
+        "name": "Overcharged",
+        "collection": "Jabba",
+        "fid": 11
+    },
+    {
+        "name": "Perilous Hunt",
+        "collection": "Jabba",
+        "fid": 12,
+        "type": "Gray"
+    },
+    {
+        "name": "Storming the Palace",
+        "collection": "Jabba",
+        "fid": 13
+    },
+    {
+        "name": "Trespass",
+        "collection": "Jabba",
+        "fid": 14
+    },
+    {
+        "name": "Trophy Hunting",
+        "collection": "Jabba",
+        "fid": 15
+    },
+    {
+        "name": "Turf War",
+        "collection": "Jabba",
+        "fid": 16
+    },
+    {
+        "name": "Dark Recon",
+        "collection": "Heart of the Empire",
+        "fid": 1
+    },
+    {
+        "name": "Extraction",
+        "collection": "Heart of the Empire",
+        "fid": 2,
+        "type": "Red",
+        "hero": "Ko-Tun Feralo"
+    },
+    {
+        "name": "Unfinished Business",
+        "collection": "Heart of the Empire",
+        "fid": 3,
+        "type": "Red",
+        "hero": "Drokkatta"
+    },
+    {
+        "name": "Test of Metal",
+        "collection": "Heart of the Empire",
+        "fid": 4,
+        "type": "Red",
+        "hero": "Jarrod Kelvin"
+    },
+    {
+        "name": "Civil Unrest",
+        "collection": "Heart of the Empire",
+        "fid": 5,
+        "type": "Gray"
+    },
+    {
+        "name": "On the Trail",
+        "collection": "Heart of the Empire",
+        "fid": 6
+    },
+    {
+        "name": "Inside Man",
+        "collection": "Heart of the Empire",
+        "fid": 7
+    },
+    {
+        "name": "From Dark Clutches",
+        "collection": "Heart of the Empire",
+        "fid": 8
+    },
+    {
+        "name": "Double Agent",
+        "collection": "Heart of the Empire",
+        "fid": 9
+    },
+    {
+        "name": "Disruption",
+        "collection": "Heart of the Empire",
+        "fid": 10
+    },
+    {
+        "name": "Into a Corner",
+        "collection": "Heart of the Empire",
+        "fid": 11
+    },
+    {
+        "name": "On the Run",
+        "collection": "Heart of the Empire",
+        "fid": 12
+    },
+    {
+        "name": "History Repeats",
+        "collection": "Heart of the Empire",
+        "fid": 13
+    },
+    {
+        "name": "Enemies Closer",
+        "collection": "Heart of the Empire",
+        "fid": 14
+    },
+    {
+        "name": "Capital Escape",
+        "collection": "Heart of the Empire",
+        "fid": 15
+    },
+    {
+        "name": "The Realm of the Dark Side",
+        "collection": "Heart of the Empire",
+        "fid": 16
+    },
+    {
+        "name": "Call to Action",
+        "collection": "Lothal",
+        "fid": 1,
+        "type": "Gray"
+    },
+    {
+        "name": "Duel on Devaron",
+        "collection": "Lothal",
+        "fid": 2,
+        "type": "Red",
+        "hero": "Tress Hacnua"
+    },
+    {
+        "name": "Race on Ryloth",
+        "collection": "Lothal",
+        "fid": 3,
+        "type": "Green"
+    },
+    {
+        "name": "Sands of Seelos",
+        "collection": "Lothal",
+        "fid": 4,
+        "type": "Red",
+        "hero": "CT-1701"
+    },
+    {
+        "name": "Siege on Geonosis",
+        "collection": "Lothal",
+        "fid": 5,
+        "type": "Green"
+    },
+    {
+        "name": "The Final Order",
+        "collection": "Lothal",
+        "fid": 6,
+        "type": "Gray"
+    },
+    {
+        "name": "Armed and Operational",
+        "wave": "W1",
+        "collection": "Rebel Saboteurs",
+        "fid": 1,
+        "type": "Green"
+    },
+    {
+        "name": "Binary Revolution",
+        "wave": "W1",
+        "collection": "IG88",
+        "fid": 2,
+        "type": "Agenda"
+    },
+    {
+        "name": "Brace for Impact",
+        "wave": "W1",
+        "collection": "Rebel Troopers",
+        "fid": 3,
+        "type": "Green"
+    },
+    {
+        "name": "Celebration",
+        "wave": "W1",
+        "collection": "Chewbacca",
+        "fid": 4,
+        "type": "Gray"
+    },
+    {
+        "name": "Forest Ambush",
+        "wave": "W1",
+        "collection": "General Weiss",
+        "fid": 5,
+        "type": "Agenda"
+    },
+    {
+        "name": "Imperial Entanglements",
+        "wave": "W1",
+        "collection": "Han Solo",
+        "fid": 6,
+        "type": "Gray"
+    },
+    {
+        "name": "Infection",
+        "wave": "W1",
+        "collection": "Royal Guard Champion",
+        "fid": 7,
+        "type": "Agenda"
+    },
+    {
+        "name": "Open to Interpretation",
+        "wave": "W2",
+        "collection": "R2-D2 and C-3PO",
+        "fid": 1,
+        "type": "Green"
+    },
+    {
+        "name": "Predator and Prey",
+        "wave": "W2",
+        "collection": "Boba Fett",
+        "fid": 2,
+        "type": "Agenda"
+    },
+    {
+        "name": "Strength of Command",
+        "wave": "W2",
+        "collection": "Kayn Somos",
+        "fid": 3,
+        "type": "Agenda"
+    },
+    {
+        "name": "Back-Room Bargains",
+        "wave": "W3",
+        "collection": "Hired Guns",
+        "fid": 1,
+        "type": "Agenda"
+    },
+    {
+        "name": "Brute Force",
+        "wave": "W3",
+        "collection": "Wookiee wrriors",
+        "fid": 2,
+        "type": "Green"
+    },
+    {
+        "name": "Bunkder Buster",
+        "wave": "W3",
+        "collection": "Stormtroopers",
+        "fid": 3,
+        "type": "Agenda"
+    },
+    {
+        "name": "Into the Wastes",
+        "wave": "W4",
+        "collection": "Bantha Rider",
+        "fid": 1,
+        "type": "Agenda"
+    },
+    {
+        "name": "Precious Cargo",
+        "wave": "W4",
+        "collection": "Alliance Smuggler",
+        "fid": 2,
+        "type": "Green"
+    },
+    {
+        "name": "A Bounty Protected",
+        "wave": "W5",
+        "collection": "Dengar",
+        "fid": 1,
+        "type": "Agenda"
+    },
+    {
+        "name": "Communication Breakdown",
+        "wave": "W5",
+        "collection": "Leia Organa",
+        "fid": 2,
+        "type": "Green"
+    },
+    {
+        "name": "Fully Charged",
+        "wave": "W5",
+        "collection": "General Sorin",
+        "fid": 3,
+        "type": "Agenda"
+    },
+    {
+        "name": "Snowcrash",
+        "wave": "W5",
+        "collection": "Echo Base Troopers",
+        "fid": 4,
+        "type": "Green"
+    },
+    {
+        "name": "Gunrunner",
+        "wave": "W6",
+        "collection": "Bossk",
+        "fid": 1,
+        "type": "Agenda"
+    },
+    {
+        "name": "Into the Unknown",
+        "wave": "W6",
+        "collection": "ISB Infiltrators",
+        "fid": 2,
+        "type": "Gray"
+    },
+    {
+        "name": "Paying Debts",
+        "wave": "W6",
+        "collection": "Lando Calrissian",
+        "fid": 3,
+        "type": "Gray"
+    },
+    {
+        "name": "Security Breach",
+        "wave": "W6",
+        "collection": "Agent Blaise",
+        "fid": 4,
+        "type": "Agenda"
+    },
+    {
+        "name": "Cornered",
+        "wave": "W7",
+        "collection": "The Grand Inquisitor",
+        "fid": 1
+    },
+    {
+        "name": "Deadly Transmission",
+        "wave": "W7",
+        "collection": "Obi-Wan Kenobi",
+        "fid": 2,
+        "type": "Green"
+    },
+    {
+        "name": "Top Target",
+        "wave": "W7",
+        "collection": "Greedo",
+        "fid": 3,
+        "type": "Agenda"
+    },
+    {
+        "name": "A Light in the Darkness",
+        "wave": "W8",
+        "collection": "Luke Skywalker - Jedi Knight",
+        "fid": 1,
+        "type": "Green"
+    },
+    {
+        "name": "One Fat Slug",
+        "wave": "W8",
+        "collection": "Jabba The Hutt",
+        "fid": 2,
+        "type": "Agenda"
+    },
+    {
+        "name": "Strike Force Xesh",
+        "wave": "W8",
+        "collection": "Alliacne Rangers",
+        "fid": 3,
+        "type": "Green"
+    },
+    {
+        "name": "The Anchorhead Affair",
+        "wave": "W8",
+        "collection": "Captain Terro",
+        "fid": 4,
+        "type": "Agenda"
+    },
+    {
+        "name": "Salvage Operatives",
+        "wave": "W9",
+        "collection": "Jawa Scavengers",
+        "fid": 1,
+        "type": "Agenda"
+    },
+    {
+        "name": "Etiquette and Torture",
+        "wave": "W9",
+        "collection": "BT-1 and 0-0-0",
+        "fid": 2,
+        "type": "Agenda"
+    },
+    {
+        "name": "Phantom Extraction",
+        "wave": "W9",
+        "collection": "Hera Syndulla and C1-10P",
+        "fid": 3
+    },
+    {
+        "name": "Dubious Disposition",
+        "wave": "W10",
+        "collection": "Maul",
+        "fid": 1,
+        "type": "Agenda"
+    },
+    {
+        "name": "Insidious",
+        "wave": "W10",
+        "collection": "Emperor Palpatine",
+        "fid": 2,
+        "type": "Agenda"
+    },
+    {
+        "name": "Home Invasion",
+        "wave": "W10",
+        "collection": "Ahsoka Tano",
+        "fid": 3,
+        "type": "Green"
+    },
+    {
+        "name": "Executive Overreach",
+        "wave": "W11",
+        "collection": "Ezra Bridger and Kanan Jarrus",
+        "fid": 1,
+        "type": "Green"
+    },
+    {
+        "name": "Intimidation Factor",
+        "wave": "W11",
+        "collection": "Sabine Wren and Zeb Orrelios",
+        "fid": 2,
+        "type": "Green"
+    },
+    {
+        "name": "The Admiral's Grip",
+        "wave": "W11",
+        "collection": "Thrawn",
+        "fid": 3,
+        "type": "Agenda"
+    },
+    {
+        "name": "The Pirate's Play",
+        "wave": "W11",
+        "collection": "Hondo Ohnaka",
+        "fid": 4,
+        "type": "Agenda"
+    }
+]

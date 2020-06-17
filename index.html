@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Mission Helper</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/animate.min.css">
+
+    <link rel="stylesheet" type="text/css" href="css/select2.min.css">
+    <link rel="stylesheet" type="text/css" href="css/mission.css">
+</head>
+
+<body>
+    <div id="title" class="d-flex flex-row justify-content-center my-2">
+        <h4 class="animated zoomIn">Imperial Assault RAIV Mission Helper</h2>
+    </div>
+    <div class="d-flex justify-content-around align-items-center">
+        <div class="d-flex">
+            <button type="button" class="btn btn-dark btn-block btn-m m-1" id="build" onclick="loadAll()">Load
+                all Missions and AI Cards</button>
+        </div>
+        <div class="d-flex">
+            <button type="button" class="btn btn-dark btn-block btn-m m-1" id="attentionBtn"
+                onclick="toogleAttention()">Enable Attention Card</button>
+        </div>
+    </div>
+    <div class="d-flex flex-row justify-content-around m-2 p-2 flex-wrap boarder align-items-center">
+
+        <!-- <div class="d-flex">
+            <button type="button" class="btn btn-dark btn-block btn-m m-1" id="build" onclick="createCollection()"
+                data-toggle="modal" data-target="#collectionModal">Create and Save
+                Collection</button>
+        </div>
+        <div class="d-flex boarder align-items-center">
+            <div class="d-flex flex-fill my-1 m-1">
+                <h6>Load Saved Collection</h6>
+            </div>
+            <div class="d-flex"><input type="file" id="loadDeckInput" onchange="loadCollection(this)">
+            </div>
+        </div> -->
+
+        <div class="d-flex flex-column justify-content-around m-2 p-2 flex-wrap boarder align-items-center">
+            <h5 id="selectMissionLabel">Select Mission</h5>
+            <select id="missionSearch" style="width: 300px" disabled></select>
+            <div class="d-flex m-3" id="missionCard"></div>
+        </div>
+
+        <div class="d-flex flex-column align-items-center flex-wrap m-2 p-2" id="attentionArea">
+        </div>
+
+        <div class="d-flex flex-column justify-content-around m-2 p-2 flex-wrap boarder align-items-center">
+            <h5 id="selectAICardLabel">Select AI Card</h5>
+            <select id="aiSearch" style="width: 300px" disabled></select>
+            <div class="d-flex">
+                <button type="button" class="btn btn-dark btn-block btn-m m-1" id="addBtn" onclick="add()" disabled>
+                    Add</button>
+                <button type="button" class="btn btn-dark btn-block btn-m m-1" id="removeBtn" onclick="remove()"
+                    disabled>
+                    Remove</button>
+                <button type="button" class="btn btn-dark btn-block btn-m m-1 animateButton" id="rollD6Btn"
+                    onclick="rollD6()">
+                    Roll D6 [x]</button>
+            </div>
+            <div class="d-flex flex-wrap" id="aiCard"></div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="collectionModal" tabindex="-1" role="dialog" aria-labelledby="collectionModalTitle"
+        aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="collectionModalTitle">Your Collection</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="d-flex flex-row justify-content-around">
+                    <button type="button" class="btn btn-dark btn-m" id="selectAll" onclick="selectAll(true)">Select
+                        All</button>
+                    <button type="button" class="btn btn-dark btn-m" id="UnselectAll"
+                        onclick="selectAll(false)">Unselect
+                        All</button>
+                </div>
+                <div class="modal-body" id="collectionModalBody">
+                    <h6>Core and Expansions</h6>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="twinShadowsCB" value="Twin Shadows">
+                        <label class="form-check-label" for="twinShadowsCB">Twin Shadows</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="hothCB" value="Hoth">
+                        <label class="form-check-label" for="hothCB">Return to Hoth</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="bespinCB" value="Bespin Gambit">
+                        <label class="form-check-label" for="bespinCB">Bespin Gambit</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="jabbaCB" value="Jabba">
+                        <label class="form-check-label" for="jabbaCB">Jabba's Realm</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="hoteCB" value="Heart of the Empire">
+                        <label class="form-check-label" for="hoteCB">Heart of the Empire</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="checkbox" class="form-check-input" id="lothalCB" value="Lothal">
+                        <label class="form-check-label" for="lothalCB">Tyrants of Lothal</label>
+                    </div>
+                    <hr />
+
+                    <h6>Ally and Villain Packs</h6>
+                    <div id="collectionWaveBody"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" onclick="saveCollection()">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS files: jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.5.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/FileSaver.min.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script src="js/mission.js"></script>
+</body>
+
+</html>

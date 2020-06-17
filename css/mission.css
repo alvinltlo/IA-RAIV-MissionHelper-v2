@@ -1,0 +1,29 @@
+body{
+    font-family: 'Tinos', serif;
+}
+
+.boarder {
+    border: 2px solid;
+}
+
+.card{
+    border-radius: 8px;
+    width: 320px;
+    align-self: center;
+    flex: 0 0 auto;
+}
+
+.selectable img {
+    margin: 5px;
+    padding: 5px;
+    border: 2px solid #ffffff;
+}
+
+img.selected {
+    border: 2px solid red; /* will overwrite color, only */
+}
+
+.animateButton:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
