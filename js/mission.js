@@ -103,21 +103,43 @@ function add() {
     let img = document.createElement("img");
     img.src = ai_base_path + ai_file_front_prefix + data[0].fid + ".jpg";
     img.classList.add("animated", "flipInY", "mx-auto", "d-block", "card");
+    img.alt = data[0].fid;
     aiCard.appendChild(img);
 
     //add back
     img = document.createElement("img");
     img.src = ai_base_path + ai_file_back_prefix + data[0].fid + ".jpg";
     img.classList.add("animated", "flipInY", "mx-auto", "d-block", "card");
+    img.alt = data[0].fid;
     aiCard.appendChild(img);
 }
 
 function remove() {
+    //get all the displayed card
+    var getDivId = document.getElementById("aiCard");
+    var allDisplayedAICards = getDivId.getElementsByTagName("img");
+    //convert to array
+    allDisplayedAICards = [].slice.call(allDisplayedAICards);
+
+    //get all the selected cart
     var selectedCards = document.getElementsByClassName("selected");
     selectedCards = [].slice.call(selectedCards);
 
+    //extract all the alt attribute from the img tag
+    let delete_fileIndex = new Set();
     selectedCards.forEach(function (card) {
-        card.parentNode.removeChild(card);
+        delete_fileIndex.add(card.alt);
+    })
+
+    console.log(delete_fileIndex);
+
+    //loop through all displayed card and remove card that has matching fileIndex
+    allDisplayedAICards.forEach(function (card) {
+        for (let index of delete_fileIndex) {
+            if (index == card.alt)
+                card.parentNode.removeChild(card);
+        }
+
     })
 
     removeBtn.disabled = true;
